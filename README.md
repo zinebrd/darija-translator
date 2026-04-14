@@ -1,15 +1,15 @@
-# 🌍 Darija Translator — LLM-Powered RESTful Web Service
+# 🌍🇲🇦 Darija Translator — LLM-Powered RESTful Web Service
 
 A full-stack translation service that translates English text to Moroccan Darija Arabic using Google Gemini AI, built with Jakarta EE and deployed on Apache TomEE.
 
-## 📁 Project Structure
+## Project Structure
 darija-translator/          # Java REST API (Maven)
 chrome-extension/           # Chrome Extension (Manifest V3)
 php-client/                 # PHP Web Client
 python-client/              # Python CLI Client
 react-native-client/        # React Native Mobile App
 
-## 🚀 Features
+## Features
 
 - REST API built with Jakarta JAX-RS
 - Google Gemini AI for English → Darija translation
@@ -19,7 +19,7 @@ react-native-client/        # React Native Mobile App
 - Text-to-speech (Read Aloud) feature
 - PHP, Python, and React Native clients
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 ### Prerequisites
 - Java 22+
@@ -52,12 +52,12 @@ curl -X POST http://localhost:8080/darija-translator/api/translate \
   -d '{"text": "Hello, how are you?"}'
 ```
 
-## 🔐 Authentication
+## Authentication
 Basic Authentication is required for all API calls.
 - Username: `admin`
 - Password: `admin123`
 
-## 👩‍💻 Clients
+## Clients
 
 ### Chrome Extension
 Load `chrome-extension/` folder in Chrome via `chrome://extensions` → Developer mode → Load unpacked.
@@ -83,11 +83,11 @@ npm install
 npm run web
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Backend:** Java 22, Jakarta EE 11, JAX-RS, TomEE 10
 - **AI:** Google Gemini 2.5 Flash API
 - **Frontend:** Chrome Extension (Manifest V3), PHP, Python, React Native
 - **Security:** Jakarta Basic Authentication
 
-## 👩‍🎓 Author
-Zineb — Al Akhawayn University, CSC 4303 Applied Research
+## Author
+Zineb — Al Akhawayn University
