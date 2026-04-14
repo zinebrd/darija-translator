@@ -89,5 +89,12 @@ npm run web
 - **Frontend:** Chrome Extension (Manifest V3), PHP, Python, React Native
 - **Security:** Jakarta Basic Authentication
 
+## UML Diagrams
+
+### Class Diagram
+![Class Diagram](darija-translator-UML.drawio.png)
+
+### Deployment Diagram
+![Deployment Diagram](Darija-\ Deployment.drawio.png)
 ## Author
-Zineb — Al Akhawayn University
+Zineb Berrada — Al Akhawayn University
