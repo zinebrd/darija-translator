@@ -95,6 +95,6 @@ npm run web
 ![Class Diagram](darija-translator-UML.drawio.png)
 
 ### Deployment Diagram
-![Deployment Diagram](Darija-\ Deployment.drawio.png)
+![Deployment Diagram](Darija-Deployment.drawio.png)
 ## Author
 Zineb Berrada — Al Akhawayn University
