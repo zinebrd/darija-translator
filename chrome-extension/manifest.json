@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Darija Translator",
+    "version": "1.0",
+    "description": "Translate text to Moroccan Darija using AI",
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "sidePanel",
+      "scripting",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
+    "action": {
+      "default_title": "Darija Translator"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
