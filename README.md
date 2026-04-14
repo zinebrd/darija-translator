@@ -92,9 +92,9 @@ npm run web
 ## UML Diagrams
 
 ### Class Diagram
-![Class Diagram](darija-translator-UML.drawio.png)
+![Class Diagram](class-diagram.png)
 
 ### Deployment Diagram
-![Deployment Diagram](Darija-Deployment.drawio.png)
+![Deployment Diagram](deployment-diagram.png)
 ## Author
 Zineb Berrada — Al Akhawayn University
